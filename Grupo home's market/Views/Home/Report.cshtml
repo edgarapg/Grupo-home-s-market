@@ -1,0 +1,18 @@
+﻿@model List< Grupo homes market.Models.viewModel.Reporte_VM>
+@{
+    Layout = null;
+}
+
+<div>
+    @foreach (var oElement in Model)
+    {
+        <div>
+
+            @oElement.Nombre @oElement.precio @oElement.Email  
+
+        </div>
+
+    }
+
+
+</div>
